@@ -1,0 +1,10 @@
+/* Header Grid */
+
+/* Body Grid */
+
+.car-grid {
+	display: grid;
+	height: 100%;
+	grid-template-rows: repeat(2, 1fr);
+	grid-template-columns: repeat(2, 1fr);
+}

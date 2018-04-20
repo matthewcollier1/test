@@ -1,0 +1,32 @@
+.video-button {
+	background-image: url('http://live.minicdn.ca/Public/img/2016-739165/ico/wide/positive/largeplay.png');
+	background-repeat: no-repeat;
+	height: 7rem;
+	width: 7rem;
+	background-color: transparent;
+	border: transparent;
+	cursor: pointer;
+}
+
+.car-data {
+	p {
+		margin: 0;
+	}
+	img {
+		margin: 1rem 0 1rem 0;
+	}
+	button {
+		background-color: black;
+		color: white;
+	}
+}
+
+.car-data :nth-child(8) {
+	margin: 1rem 0 1rem 0;
+}
+
+.car-data {
+	article :first-child {
+		text-decoration: underline;
+	}
+}
