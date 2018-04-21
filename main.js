@@ -4,7 +4,7 @@ videoButton.addEventListener('click', () => {
 	let header = document.querySelector('.header');
 	let video = document.querySelector('.youtube-video');
 	header.classList.add('clicked');
-	video.setAttribute('style', 'display: flex');
+	video.setAttribute('style', 'display: block');
 });
 
 // Info from json
@@ -42,9 +42,7 @@ function showCars(jsonObj) {
 		var b2 = document.createElement('button');
 
 		myH5.textContent = carObj[i].Name;
-		console.log(myH5);
 		p1.textContent = 'Price: ' + carObj[i].Price;
-		console.log(p1);
 		myImg.src = carObj[i].Photo;
 		p2.textContent = 'Retailer: ' + carObj[i].Retailer;
 		p3.textContent = 'Kilometres: ' + carObj[i].Kilometres;

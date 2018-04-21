@@ -6,6 +6,12 @@
 	background-color: transparent;
 	border: transparent;
 	cursor: pointer;
+	-webkit-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+	&:hover {
+		-webkit-transform: translateY(-4px);
+		transform: translateY(-4px);
+	}
 }
 
 .car-data {
@@ -18,6 +24,8 @@
 	button {
 		background-color: black;
 		color: white;
+		height: 3rem;
+		margin: 1rem 0 0;
 	}
 }
 
@@ -28,5 +36,6 @@
 .car-data {
 	article :first-child {
 		text-decoration: underline;
+		font-size: 1.1rem;
 	}
 }

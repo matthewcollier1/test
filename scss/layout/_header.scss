@@ -6,25 +6,25 @@
 		height: 70%;
 		width: 100%;
 		padding: 15%;
-		padding-top: 6%;
+		padding-top: 10rem;
 	}
 }
 
 .header {
 	height: 100vh;
 	width: 100vw;
-	/* 	background-image: url('./img/video-screenshot.jpg');
-	background-repeat: no-repeat;
-	background-size: cover; */
 }
 
-.header__text img {
-	z-index: -1;
-	position: absolute;
-	top: 0;
-	left: 0;
-	padding: 15%;
-	padding-top: 6%;
+.header__text {
+	color: white;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	text-align: center;
 }
 
 .header-container {
@@ -42,6 +42,9 @@
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
+	background-image: url('http://live.minicdn.ca/Public/img/2016-739165/content/all4/video-screenshot.jpg?v=QtLwR5_JgP85Utjqn_mAVsqlDaHzCwyQ7Z8rDb4URZU1');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
 }
 
 .clicked {
