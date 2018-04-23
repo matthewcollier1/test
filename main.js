@@ -25,7 +25,6 @@ request.onload = function() {
 
 function showCars(jsonObj) {
 	var carObj = jsonObj['cars'];
-	console.log(carObj);
 	for (var i = 0; i < carObj.length; i++) {
 		var myArticle = document.createElement('article');
 		var myH5 = document.createElement('h5');
@@ -42,14 +41,14 @@ function showCars(jsonObj) {
 		var b2 = document.createElement('button');
 
 		myH5.textContent = carObj[i].Name;
-		p1.textContent = 'Price: ' + carObj[i].Price;
+		p1.textContent = carObj[i].Price;
 		myImg.src = carObj[i].Photo;
 		p2.textContent = 'Retailer: ' + carObj[i].Retailer;
 		p3.textContent = 'Kilometres: ' + carObj[i].Kilometres;
-		p4.textContent = 'Transmission: ' + carObj[i].Transmission;
-		p5.textContent = 'Exterior: ' + carObj[i].Exterior;
-		p6.textContent = 'Interior: ' + carObj[i].Interior;
-		p7.textContent = 'VIN: ' + carObj[i].VIN;
+		p4.textContent = 'Transmission:  ' + carObj[i].Transmission;
+		p5.textContent = 'Exterior:  ' + carObj[i].Exterior;
+		p6.textContent = 'Interior:  ' + carObj[i].Interior;
+		p7.textContent = 'VIN:  ' + carObj[i].VIN;
 		p8.textContent = 'Drive Train: ' + carObj[i].DriveTrain;
 		b1.textContent = 'View Details';
 		b2.textContent = 'Book A Test Drive';

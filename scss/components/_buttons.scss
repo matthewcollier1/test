@@ -15,27 +15,10 @@
 }
 
 .car-data {
-	p {
-		margin: 0;
-	}
-	img {
-		margin: 1rem 0 1rem 0;
-	}
 	button {
 		background-color: black;
 		color: white;
 		height: 3rem;
 		margin: 1rem 0 0;
-	}
-}
-
-.car-data :nth-child(8) {
-	margin: 1rem 0 1rem 0;
-}
-
-.car-data {
-	article :first-child {
-		text-decoration: underline;
-		font-size: 1.1rem;
 	}
 }
